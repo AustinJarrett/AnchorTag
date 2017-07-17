@@ -12,6 +12,7 @@ namespace AnchorTag
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
             string str = File.ReadAllText("input.txt");
             File.WriteAllText("output.txt", "");
 
