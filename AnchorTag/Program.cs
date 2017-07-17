@@ -12,8 +12,6 @@ namespace AnchorTag
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Running");
             string str = File.ReadAllText("input.txt");
             File.WriteAllText("output.txt", "");
 
